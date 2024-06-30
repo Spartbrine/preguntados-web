@@ -1,0 +1,30 @@
+.respuesta {
+    cursor: pointer;
+  }
+  
+  .respuesta.correcta {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .respuesta.incorrecta {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .respuesta.correcta::after {
+    content: "✔";
+    margin-left: 10px;
+    color: green;
+  }
+  
+  .respuesta.incorrecta::after {
+    content: "✖";
+    margin-left: 10px;
+    color: red;
+  }
+  
+  #timer {
+    font-size: 1.5em;
+  }
+  
