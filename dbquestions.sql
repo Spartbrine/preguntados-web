@@ -26,7 +26,8 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `incorrect_answers`
 --
-
+CREATE DATABASE dbquestions;
+USE dbquestions;
 CREATE TABLE `incorrect_answers` (
   `id` int(11) NOT NULL,
   `id_question` int(11) DEFAULT NULL,
